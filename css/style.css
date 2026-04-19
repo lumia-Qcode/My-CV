@@ -409,6 +409,51 @@ main.container {
     min-width: 280px;
 }
 
+.achievement-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 1 380px;
+}
+
+.achievement-icon {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+
+.achievement-body {
+    flex: 1;
+}
+
+.achievement-body h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--text-color);
+}
+
+.achievement-body p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 14px;
+}
+
+.achievement-sgpa {
+    display: inline-block;
+    background: var(--accent-color);
+    padding: 6px 18px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #1a1a1a;
+}
+
+.achievement-sgpa span {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
 .date {
     font-weight: bold;
     color: #888;
